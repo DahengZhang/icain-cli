@@ -1,17 +1,17 @@
 <template>
 	<div class="app">
-		This is OPEN
+		This is CQQ~
 	</div>
 </template>
 
 <script>
 export default {
-	name: 'open'
+	name: 'cqq'
 }
 </script>
 
 <style lang="scss">
 .app {
-	font-size: 24px;
+	font-weight: 600;
 }
 </style>

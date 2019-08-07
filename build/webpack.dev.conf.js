@@ -1,11 +1,8 @@
 const merge = require('webpack-merge')
 const webpack = require('webpack')
-
 const conf = require('./webpack.com.conf')
-const isDev = process.env.NODE_ENV === 'development'
 
 module.exports = merge(conf, {
-	devtool: isDev ? 'eval' : 'source-maps',
 	module: {
 		rules: [{
 			test: /\.(c|sc|sa)ss$/,
